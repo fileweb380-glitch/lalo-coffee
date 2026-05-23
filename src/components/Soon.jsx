@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { Link } from "react-router-dom";
 
 
 const Soon = () => {
@@ -19,6 +20,14 @@ const Soon = () => {
           transition={{ duration: 1 }}
           viewport={{ once: true }}
         >
+          <Link to='/'>
+          <button style={{width:'20%', borderRadius:'20px',backgroundColor:'white',color:'black', border:'solid black',
+            height:'20%'
+          }}>
+            Back to Site
+          </button>
+          </Link>
+          <br/>
           <h1>
             The Future of <span>Lalo Coffee</span>
           </h1>
