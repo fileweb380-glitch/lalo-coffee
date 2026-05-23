@@ -21,7 +21,9 @@ const Soon = () => {
           viewport={{ once: true }}
         >
           <Link to='/hero'>
-          <button style={{width:'20%', borderRadius:'20px',backgroundColor:'white',color:'black'}}>
+          <button style={{width:'20%', borderRadius:'20px',backgroundColor:'white',color:'black', border:'solid black',
+            height:'17%'
+          }}>
             Back to Site
           </button>
           </Link>
