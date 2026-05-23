@@ -22,7 +22,7 @@ const Soon = () => {
         >
           <Link to='/hero'>
           <button style={{width:'20%', borderRadius:'20px',backgroundColor:'white',color:'black', border:'solid black',
-            height:'17%'
+            height:'20%'
           }}>
             Back to Site
           </button>

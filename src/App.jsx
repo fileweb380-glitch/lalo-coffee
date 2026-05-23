@@ -43,7 +43,7 @@ function App() {
 
         {/* Soon Page */}
         <Route path="/soon" element={<Soon />} />
-
+        <Route path="/hero" element={<Hero />} />
       </Routes>
     </>
   );
