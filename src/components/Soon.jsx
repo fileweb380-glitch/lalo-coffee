@@ -20,7 +20,7 @@ const Soon = () => {
           transition={{ duration: 1 }}
           viewport={{ once: true }}
         >
-          <Link to='/hero'>
+          <Link to='/'>
           <button style={{width:'20%', borderRadius:'20px',backgroundColor:'white',color:'black', border:'solid black',
             height:'20%'
           }}>
